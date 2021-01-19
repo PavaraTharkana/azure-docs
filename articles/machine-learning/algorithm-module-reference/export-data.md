@@ -46,7 +46,9 @@ Before exporting your data, you need to first register a datastore in your Azure
 
     If it is selected, the system will execute the module again to regenerate output.
 
-1. Define the path in the datastore where the data is. The path is a relative path. The empty paths or a URL paths are not allowed.
+1. Define the path in the datastore where the data is. The path is a relative path. The empty paths or a URL paths are not allowed. 
+    
+    If you suppose to store the exported data file into a blob storage, you have to define the file name with the relevant extension which you need to store inside the blob storage. Otherwise, the file will not export to the blob storage.
 
 
 1. For **File format**, select the format in which data should be stored.
